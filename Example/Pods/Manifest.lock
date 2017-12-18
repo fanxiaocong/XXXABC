@@ -1,0 +1,22 @@
+PODS:
+  - JCore (1.1.6)
+  - JPush (3.0.7):
+    - JCore (~> 1.1.6)
+  - XXXABC (0.0.1):
+    - JPush
+
+DEPENDENCIES:
+  - XXXABC (from `../`)
+
+EXTERNAL SOURCES:
+  XXXABC:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JCore: 18fc8725124f26e55625eaf224659b3a999dcf63
+  JPush: 111b79b8a0169ab8fd4c486dac3ed166ed69293e
+  XXXABC: a2d0d7e256a8a6b4005beed0c9143596c328b2da
+
+PODFILE CHECKSUM: c21088744207375be3debef63040be05d3324fd7
+
+COCOAPODS: 1.4.0.rc.1
